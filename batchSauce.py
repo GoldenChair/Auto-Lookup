@@ -12,7 +12,7 @@ from saucenao_api import SauceNao
 
 # Cleans twitter image urls for saucenao and opens webbrowser to sauceNAO for image after time limit.
 def twitter_url():
-    f = open("ursl.txt", "r")
+    f = open("urls.txt", "r")
     cleaned_Urls = []
     for x in f:
         t = x[8:]
